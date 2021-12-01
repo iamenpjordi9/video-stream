@@ -3,9 +3,9 @@ from pytgcalls import idle
 from driver.veez import call_py, bot
 
 async def mulai_bot():
-    print("[VEEZ]: STARTING BOT CLIENT")
+    print("[MilfBOT]: STARTING BOT CLIENT")
     await bot.start()
-    print("[VEEZ]: STARTING PYTGCALLS CLIENT")
+    print("[MilfBOT]: STARTING PYTGCALLS CLIENT")
     await call_py.start()
     await idle()
     await pidle()
